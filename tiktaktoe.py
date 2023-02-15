@@ -46,7 +46,7 @@ def check_vyhry(board, marker):
             return True
         if [board[i][2 - i] for i in range(3)] == [marker, marker, marker]:
             return True
-        return False
+    return False
     
 board = [[" " for _ in range(3)] for _ in range(3)]
 player = "O"
